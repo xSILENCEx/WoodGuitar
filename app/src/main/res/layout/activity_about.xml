@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#DEA765"
+    android:gravity="center_horizontal">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="100dp"
+        android:text="ABOUT"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        android:background="@color/colorTransparent"/>
+    <Button
+        android:textAllCaps="false"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="WoodGuitar"
+        android:textColor="#FFFFFF"
+        android:textSize="40sp"
+        android:background="@color/colorTransparent"/>
+    <Button
+        android:textAllCaps="false"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="1.0.1"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:background="@color/colorTransparent"/>
+
+    <Button
+        android:textAllCaps="false"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="150dp"
+        android:text="by WY"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:background="@color/colorTransparent"/>
+
+    <Button
+        android:id="@+id/back_02"
+        android:textAllCaps="false"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:text="BACK"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:background="#DE8B48"/>
+
+</LinearLayout>
